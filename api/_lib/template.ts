@@ -10,7 +10,7 @@ const emojify = (text: string) => twemoji.parse(text, twOptions);
 const rglr = readFileSync(`${__dirname}/../_fonts/Inter-Regular.woff2`).toString('base64');
 const bold = readFileSync(`${__dirname}/../_fonts/Inter-Bold.woff2`).toString('base64');
 const mono = readFileSync(`${__dirname}/../_fonts/Vera-Mono.woff2`).toString('base64');
-const mincho = readFileSync(`${__dirname}/../_fonts/BIZUDMincho-Regular.woff2`).toString('base64');
+const roundedx1p = readFileSync(`${__dirname}/../_fonts/roundedx1p.woff2`).toString('base64');
 
 function getCss(theme: string, fontSize: string) {
     let background = 'white';
@@ -46,7 +46,7 @@ function getCss(theme: string, fontSize: string) {
         font-family: 'BIZUDMincho-Regular';
         font-style: normal;
         font-weight: 500;
-        src: url(data:font/otf;charset=utf-8;base64,${mincho}) format('woff2');
+        src: url(data:font/otf;charset=utf-8;base64,${roundedx1p}) format('woff2');
     }
 
     body {
