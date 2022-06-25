@@ -72,7 +72,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .logo-wrapper {
-        display: noen;
+        display: none;
     }
 
     .logo {
