@@ -43,7 +43,7 @@ function getCss(theme: string, fontSize: string) {
       }
 
     @font-face {
-        font-family: 'BIZUDMincho-Regular';
+        font-family: 'roundedx1p';
         font-style: normal;
         font-weight: 500;
         src: url(data:font/otf;charset=utf-8;base64,${roundedx1p}) format('woff2');
@@ -101,7 +101,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .heading {
-        font-family: 'BIZUDMincho-Regular','Inter', sans-serif;
+        font-family: 'roundedx1p','Inter', sans-serif;
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
         color: ${foreground};
